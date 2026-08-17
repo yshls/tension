@@ -8,7 +8,7 @@
 ## 1. Project Overview
 
 * **프로젝트명**: TENSION
-* **배포 주소**: [https://tension-words.vercel.app](https://tension-words.vercel.app)
+* **배포 주소**: [https://yshls.github.io/tension](https://yshls.github.io/tension)
 * **개발 소요 시간**: 4시간 이내
 * **포지션**: 프론트엔드 인터랙티브 엔지니어링 / 크리에이티브 코딩
 * **기술 스택**: Next.js 16, React 19, TypeScript, Framer Motion, Web Audio API, Tailwind CSS
