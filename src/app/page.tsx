@@ -178,42 +178,53 @@ export default function Home() {
           pointerEvents: 'none',
           display: 'flex',
           alignItems: 'center',
-          gap: '0.85rem',
-          padding: '0.65rem 1.35rem',
+          gap: '0.75rem',
+          padding: '0.5rem 1.15rem',
           borderRadius: '9999px',
-          backgroundColor: 'rgba(20, 20, 20, 0.9)',
-          backdropFilter: 'blur(12px)',
-          WebkitBackdropFilter: 'blur(12px)',
-          border: '1px solid rgba(255, 255, 255, 0.2)',
-          color: '#FFFFFF',
-          fontSize: '0.875rem',
+          backgroundColor: 'rgba(24, 24, 27, 0.95)',
+          border: '1px solid rgba(255, 255, 255, 0.15)',
+          color: '#F4F4F5',
+          fontSize: '0.8125rem',
           fontWeight: 500,
-          letterSpacing: '0.02em',
-          boxShadow: '0 10px 30px rgba(0, 0, 0, 0.4)',
+          letterSpacing: '0.01em',
         }}
       >
-        <span style={{ display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
-          <span style={{ fontSize: '1rem', color: '#FBBF24' }}>🔊</span>
-          <span style={{ color: '#FFFFFF' }}>소리를 켜주세요</span>
+        <span style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="15"
+            height="15"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            style={{ color: '#E4E4E7', flexShrink: 0 }}
+          >
+            <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+            <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
+            <path d="M19.07 4.93a10 10 0 0 1 0 14.14" />
+          </svg>
+          <span style={{ color: '#E4E4E7' }}>소리를 켜주세요</span>
         </span>
-        <span style={{ color: 'rgba(255, 255, 255, 0.3)', fontWeight: 300 }}>|</span>
-        <span style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+        <span style={{ color: 'rgba(255, 255, 255, 0.2)', fontWeight: 300 }}>|</span>
+        <span style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
           <kbd 
             style={{ 
-              padding: '0.15rem 0.5rem', 
-              borderRadius: '0.375rem', 
-              backgroundColor: 'rgba(255, 255, 255, 0.2)', 
+              padding: '0.1rem 0.45rem', 
+              borderRadius: '0.3rem', 
+              backgroundColor: 'rgba(255, 255, 255, 0.12)', 
               color: '#FFFFFF', 
               fontFamily: 'monospace', 
               fontSize: '0.75rem', 
-              fontWeight: 700, 
-              border: '1px solid rgba(255, 255, 255, 0.3)',
-              boxShadow: 'inset 0 1px 2px rgba(0, 0, 0, 0.2)' 
+              fontWeight: 600, 
+              border: '1px solid rgba(255, 255, 255, 0.2)',
             }}
           >
             Enter
           </kbd>
-          <span style={{ color: '#FFFFFF' }}>입력 시 폭발 및 초기화</span>
+          <span style={{ color: '#E4E4E7' }}>입력 시 초기화</span>
         </span>
       </div>
 
